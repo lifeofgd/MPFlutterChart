@@ -624,7 +624,7 @@ class PieChartRenderer extends DataRenderer {
                 c,
                 formattedValue,
                 x,
-                y,
+                entryLabel != null ? y : y+10,
                 dataSet.getValueTextColor2(j),
                 true,
                 dataSet.getValueTextSize(),
